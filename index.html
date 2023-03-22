@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title> Formulário Front-End</title>
+        <link rel="stylesheet" a href="reset.css">
+        <link rel="stylesheet" a href="style.css"> 
+    </head>
+    <body>
+      <form>
+        <div class="principal">
+        <h1 id="front">Formulário Front-End</h1>
+        <label  class="nome" for="text">Nome Completo</label>
+        <input type="text" placeholder="Seu nome completo" name="Seu nome completo">
+
+        <label  class="data" for="data">Data</label>
+        <input type="date">
+
+        <label class="tel">Telefone</label>
+        <input type="tel" placeholder="(XX) XXXXX-XXXX">
+
+        <label class="email">Email</label>
+        <input type="email" placeholder="seuemail@.com">
+
+        <label class="time">Hora</label>
+        <input type="time">
+
+				<legend class="legenda">Sexo</legend>
+				  <label for="radio-Masculino"><input type="radio">Masculino</label>
+          <div class="feminino">
+          <label class="radio-Feminino"><input type="radio">Feminino</label>
+        </div>
+		
+        <label class="categoria">
+          Seu Grau
+        <input class="funcao"list="techs" placeholder="Escolha sua categoria">
+      </label>
+        <datalist id="techs">
+          <option value="Júnior"></option>
+          <option value="Pleno"></option>
+          <option value="Senior"></option>
+        </datalist>
+        <input class="enviar"type="submit">
+      </div>
+      </form>
+    </body>
+       
+           
