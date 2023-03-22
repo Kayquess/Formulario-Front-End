@@ -1,0 +1,101 @@
+body {
+   background:rgb(76, 12, 12)
+}
+
+
+.principal {
+    position: absolute;
+    width: 500px;
+    bottom: 10px;
+    right: 380px;
+    top: 20px;
+    display: block;
+    padding: 30px;
+    color: aliceblue;
+    margin: 10px;
+    background: linear-gradient(rgb(0, 0, 0), red);
+    border-radius: 30px;
+
+
+}
+
+#front {
+   text-align: center;
+   color: white;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.nome {
+    display: block;
+    font-size: 20px;
+    padding: 5px;
+    
+    
+   
+}
+   
+.data {
+    display: block;
+    font-size: 20px;
+    padding: 5px;
+    
+}
+
+.tel {
+    display: block;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.email {
+    display: block;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.time {
+    display: block;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.legenda {
+    font-size: 20px;
+    padding: 3px;
+    
+}
+
+.feminino {
+    display: block;
+}
+
+.categoria {
+    display: block;
+    font-size: 20px;
+    padding: 5px;
+    
+}
+
+.funcao {
+    position: absolute;
+    display: block;
+    bottom: 105px;
+}
+
+.enviar {
+    position: absolute;
+    bottom: 30px;
+    width: 200px;
+    height: 40px;
+    right: 190px;
+    display: block;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+.enviar:hover {
+    background: red;
+}
